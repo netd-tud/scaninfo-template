@@ -5,4 +5,4 @@ Simply clone the repository and adjust it to your needs.
 ## Run
 Use a web-server of your choice, an example is given below.
 ### Python HTTP Server
-`python3 -m http.server 80 --directory [path/to/this/directory]`
+`python3 -m http.server 80 --bind [server ip-addr.] --directory [path/to/this/directory]`
